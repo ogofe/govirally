@@ -6,10 +6,12 @@ import "./style/flexboxgrid.min.css";
 import './style/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Analytics } from "@vercel/analytics/react"
 
 ReactDOM.render(
   <>
     <App />
+    <Analytics />
   </>,
   document.getElementById('root')
 );

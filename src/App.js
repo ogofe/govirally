@@ -14,7 +14,7 @@ export default function App() {
         <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;800&display=swap" rel="stylesheet" />
       </Helmet>
       <Landing />
-      {/* <Analytics /> */}
+      <Analytics />
     </>
   );
 }
